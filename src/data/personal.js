@@ -11,7 +11,7 @@ export const personalInfo = {
   whatsappUrl: "https://wa.me/919677227274",
   location: "Chennai, Tamil Nadu",
   resumeUrl: "/resume.pdf",
-  profileImage: "/PHOTOGRAPH.jpg",
+  profileImage: import.meta.env.BASE_URL + "profile.jpg",
   social: {
     github: "https://github.com",
     linkedin: "https://linkedin.com",
