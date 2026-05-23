@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #0ea5e9;
+  --color-primary-dark: #0284c7;
+  --color-primary-light: #38bdf8;
+  --color-accent: #7dd3fc;
+  --color-dark: #0f172a;
+  --color-dark-card: #1e293b;
+  --color-dark-muted: #334155;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-sky-500/30 text-sky-100;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-xl border;
+    @apply bg-slate-100/90 border-slate-200/70;
+    @apply dark:bg-slate-800/40 dark:border-slate-700/50;
+  }
+
+  .skill-card {
+    @apply rounded-2xl border p-6 backdrop-blur-sm transition-colors duration-300;
+    @apply border-slate-200/80 bg-slate-100/95;
+    @apply dark:border-slate-700/60 dark:bg-slate-800/50;
+    @apply hover:border-slate-300 dark:hover:border-slate-600;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-sky-600 via-sky-500 to-sky-400 bg-clip-text text-transparent;
+    @apply dark:from-sky-400 dark:via-sky-300 dark:to-sky-200;
+  }
+
+  .gradient-border {
+    background: linear-gradient(135deg, #0ea5e9, #06b6d4, #38bdf8);
+    padding: 1px;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-20 md:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
