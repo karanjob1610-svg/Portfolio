@@ -12,25 +12,25 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Student Management System",
+    title: "Machine Monitoring Dashboard",
     description:
-      "Comprehensive academic platform for managing students, courses, grades, and attendance with role-based access control.",
-    technologies: ["Python", "Flask", "MySQL", "Bootstrap"],
+      "Comprehensive platform for monitoring machine performance, generating reports, and providing actionable insights.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
     image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80",
+    github: "https://github.com/karanjob1610-svg/Machine-Monitoring-Dashboard.git",
+    demo: "https://karanjob1610-svg.github.io/Machine-Monitoring-Dashboard/",
   },
   {
     id: 3,
     title: "Portfolio Website",
     description:
       "Modern, responsive developer portfolio with dark mode, animations, and optimized performance for recruiters.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", " CSS", "Framer Motion"],
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/karanjob1610-svg/Portfolio.git",
+    demo: "https://karanjob1610-svg.github.io/Portfolio/",
   },
   {
     id: 4,

@@ -13,8 +13,8 @@ export const personalInfo = {
   resumeUrl: "/resume.pdf",
   profileImage: import.meta.env.BASE_URL + "profile.jpg",
   social: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/karanjob1610-svg",
+    linkedin: "https://www.linkedin.com/in/karan-senthil-b29a20319?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     email: "mailto:karanjob1610@gmail.com",
     whatsapp: "https://wa.me/919677227274",
   },

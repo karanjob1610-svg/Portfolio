@@ -6,6 +6,6 @@ export const certifications = [
     year: "2026",
     credential: "Professional Certificate",
     icon: "python",
-    certificateUrl: "https://drive.google.com/file/d/1PpmYd8cwumWgOs15eWt-ih2dUiDUNpYs/view?usp=drive_link",
+    certificateUrl: "/Certificate_36907.pdf",
   },
 ];
