@@ -6,6 +6,6 @@ export const certifications = [
     year: "2026",
     credential: "Professional Certificate",
     icon: "python",
-    certificateUrl: "/Certificate_36907.pdf",
+    certificateUrl: import.meta.env.BASE_URL + "Certificate_36907.pdf",
   },
 ];
