@@ -10,7 +10,7 @@ export const personalInfo = {
   whatsapp: "+91 9677227274",
   whatsappUrl: "https://wa.me/919677227274",
   location: "Chennai, Tamil Nadu",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Karan_S_Resume.pdf" + import.meta.env.BASE_URL + "Karan_S_Resume.pdf",
   profileImage: import.meta.env.BASE_URL + "profile.jpg",
   social: {
     github: "https://github.com/karanjob1610-svg",

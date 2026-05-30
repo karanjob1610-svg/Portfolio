@@ -1,14 +1,14 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Website",
+    title: "Bus ticket booking system",
     description:
-      "Full-featured online store with cart, checkout, payment integration, and admin dashboard built with Django REST and React.",
-    technologies: ["Python", "Django", "React", "PostgreSQL", "Stripe"],
+      "A Bus Ticket Booking System is a web-based application that allows users to search for buses, check seat availability, book tickets, make online payments, and manage their travel bookings efficiently.",
+    technologies: ["Python", "Django", "React", "SQLlite", "html", "css", "javascript"],
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+      "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=600&h=400&fit=crop",
+    github: "https://github.com/karanjob1610-svg/Busgo.git",
+    demo: "https://busgo-3.onrender.com",
   },
   {
     id: 2,
