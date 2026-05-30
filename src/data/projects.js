@@ -34,24 +34,14 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Task Manager App",
+    title: "College Website",
     description:
-      "Collaborative task management tool with real-time updates, drag-and-drop boards, and team workspaces.",
-    technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
+      "Modern, responsive college website with course information, faculty profiles, and event announcements.",
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "SQL", "python","Django"],
     image:
       "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
+    github: "https://github.com/karanjob1610-svg/College-Website.git",
+    demo: "https://college-2-nrco.onrender.com",
   },
-  {
-    id: 5,
-    title: "Weather App using API",
-    description:
-      "Real-time weather application with location search, 7-day forecasts, and beautiful data visualizations using OpenWeather API.",
-    technologies: ["JavaScript", "React", "REST API", "Chart.js"],
-    image:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
+ 
 ];
