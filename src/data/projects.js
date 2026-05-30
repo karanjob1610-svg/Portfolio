@@ -40,7 +40,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "SQL", "python","Django"],
     image:
       "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    github: "https://github.com/karanjob1610-svg/College-Website.git",
+    github: "https://github.com/karanjob1610-svg/college.git",
     demo: "https://college-2-nrco.onrender.com",
   },
  
