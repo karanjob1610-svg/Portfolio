@@ -71,7 +71,7 @@ export default function Resume() {
               Download my full resume to learn more about my experience, projects, and
               technical skills for your next hire.
             </p>
-            <Button href="/Karan_S_Resume.pdf" download="Karan_S_Resume.pdf" className="!px-8">
+            <Button href={personalInfo.resumeUrl} download className="!px-8">
               <FaDownload /> Download Resume
             </Button>
           </motion.div>
